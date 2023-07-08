@@ -291,11 +291,11 @@ function animateToggle() {
     if(toggle.classList.contains("active")) {
         plats.style.left = "-400px";
         galettes.style.left = "0px";
-        plats.parentElement.style.height = "800px"
+        plats.parentElement.style.height = "715px"
     } else {
         plats.style.left = "0px";
         galettes.style.left = "400px";
-        plats.parentElement.style.height = "1100px"
+        plats.parentElement.style.height = "715px"
     }
     text_toggle_btn.forEach(function(ele) {
         ele.classList.toggle("active")
